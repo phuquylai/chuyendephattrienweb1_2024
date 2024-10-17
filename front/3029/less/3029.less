@@ -1,0 +1,155 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #003366;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav .contact-number {
+    font-weight: bold;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 250px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-right: 1px solid #ccc;
+}
+
+.sidebar h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #003366;
+}
+
+.sidebar a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.sidebar a:hover, .sidebar a:focus {
+    background-color: #003366;
+    color: white;
+}
+
+.repair-info {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.repair-info h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.repair-info .button {
+    background-color: #0099cc;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.repair-info .button:hover {
+    background-color: #0077aa;
+}
+
+/* Main Content Area */
+.main-content {
+    margin-left: 280px; /* Adjusting for sidebar width */
+    padding: 30px;
+}
+
+.main-content h1 {
+    color: #003366;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.section-title {
+    font-size: 22px;
+    margin-top: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    color: #003366;
+}
+
+/* Paragraph Styling */
+.main-content p {
+    line-height: 1.8;
+    margin: 15px 0;
+    color: #555;
+}
+
+/* Repair Section Styling */
+.repair-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.repair-section .before, 
+.repair-section .after {
+    width: 48%;
+}
+
+.repair-section img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.repair-section .label {
+    background-color: #0099cc;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #004080;
+}
